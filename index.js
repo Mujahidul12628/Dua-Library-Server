@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("User Management");
+  res.send("Dua Library Server");
 });
 
 // Routes
